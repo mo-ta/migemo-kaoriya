@@ -55,7 +55,7 @@ if has('migemo')
     call search('\%(\%#.\{-\}\)\@<='.pat)
     noh
   endfunction
-  nnoremap <Leader>f :call <SID>SearchChar(0)<CR>
+  "nnoremap <Leader>f :call <SID>SearchChar(0)<CR>
 else
   " non-builtin version
   let g:migemodict = s:SearchDict()
